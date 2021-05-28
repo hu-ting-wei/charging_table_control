@@ -1,0 +1,670 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L campusrover_pcb:Arduino_Mega_Header J8
+U 1 1 609B965F
+P 7100 4000
+F 0 "J8" V 6994 5228 60  0000 L CNN
+F 1 "Arduino_Mega_Header" V 7100 5228 60  0000 L CNN
+F 2 "campusrover_pcb:arduino_mega_header" V 7206 5228 60  0000 L CNN
+F 3 "" H 7100 4000 60  0000 C CNN
+	1    7100 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 609BE25B
+P 3250 2500
+F 0 "R2" H 3320 2546 50  0000 L CNN
+F 1 "1k" H 3320 2455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 2500 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 609BE500
+P 3250 2200
+F 0 "R1" H 3320 2246 50  0000 L CNN
+F 1 "1k" H 3320 2155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 2200 50  0001 C CNN
+F 3 "~" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 609BE69E
+P 3250 3150
+F 0 "R4" H 3320 3196 50  0000 L CNN
+F 1 "1k" H 3320 3105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 3150 50  0001 C CNN
+F 3 "~" H 3250 3150 50  0001 C CNN
+	1    3250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 609BE91B
+P 3250 3450
+F 0 "R5" H 3320 3496 50  0000 L CNN
+F 1 "1k" H 3320 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 3450 50  0001 C CNN
+F 3 "~" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 609BEA7B
+P 3250 2850
+F 0 "R3" H 3320 2896 50  0000 L CNN
+F 1 "1k" H 3320 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 2850 50  0001 C CNN
+F 3 "~" H 3250 2850 50  0001 C CNN
+	1    3250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 609BEB78
+P 3250 3750
+F 0 "R6" H 3320 3796 50  0000 L CNN
+F 1 "1k" H 3320 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 3750 50  0001 C CNN
+F 3 "~" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 609DC07D
+P 4600 2500
+F 0 "J3" H 4680 2492 50  0000 L CNN
+F 1 "Y_BTN2" H 4680 2401 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 4600 2500 50  0001 C CNN
+F 3 "~" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 609DC678
+P 4600 2850
+F 0 "J4" H 4680 2842 50  0000 L CNN
+F 1 "X_BTN2" H 4680 2751 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 4600 2850 50  0001 C CNN
+F 3 "~" H 4600 2850 50  0001 C CNN
+	1    4600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 609DC981
+P 4600 3450
+F 0 "J6" H 4680 3442 50  0000 L CNN
+F 1 "Y_BTN1" H 4680 3351 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 4600 3450 50  0001 C CNN
+F 3 "~" H 4600 3450 50  0001 C CNN
+	1    4600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 609DCB95
+P 4600 3750
+F 0 "J7" H 4680 3742 50  0000 L CNN
+F 1 "X_BTN1" H 4680 3651 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 4600 3750 50  0001 C CNN
+F 3 "~" H 4600 3750 50  0001 C CNN
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 609DCE12
+P 4600 2200
+F 0 "J2" H 4680 2192 50  0000 L CNN
+F 1 "Z_BTN2" H 4680 2101 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 4600 2200 50  0001 C CNN
+F 3 "~" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 609DD2D3
+P 4600 3150
+F 0 "J5" H 4680 3142 50  0000 L CNN
+F 1 "Z_BTN1" H 4680 3051 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 4600 3150 50  0001 C CNN
+F 3 "~" H 4600 3150 50  0001 C CNN
+	1    4600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 609E5DD4
+P 3100 4150
+F 0 "#PWR01" H 3100 3900 50  0001 C CNN
+F 1 "GND" H 3105 3977 50  0000 C CNN
+F 2 "" H 3100 4150 50  0001 C CNN
+F 3 "" H 3100 4150 50  0001 C CNN
+	1    3100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4150 3100 3750
+Wire Wire Line
+	3100 3750 3100 3450
+Connection ~ 3100 3750
+Wire Wire Line
+	3100 3450 3100 3150
+Connection ~ 3100 3450
+Wire Wire Line
+	3100 3150 3100 2850
+Connection ~ 3100 3150
+Wire Wire Line
+	3100 2850 3100 2500
+Connection ~ 3100 2850
+Wire Wire Line
+	3100 2500 3100 2200
+Connection ~ 3100 2500
+Wire Wire Line
+	3100 2200 3100 2000
+Wire Wire Line
+	8000 2000 8000 3450
+Connection ~ 3100 2200
+Wire Wire Line
+	4200 2300 4400 2300
+Wire Wire Line
+	4200 2300 4200 2600
+Wire Wire Line
+	4200 2600 4400 2600
+Wire Wire Line
+	4200 2600 4200 2950
+Wire Wire Line
+	4200 2950 4400 2950
+Connection ~ 4200 2600
+Wire Wire Line
+	4200 2950 4200 3250
+Wire Wire Line
+	4200 3250 4400 3250
+Connection ~ 4200 2950
+Wire Wire Line
+	4200 3250 4200 3550
+Wire Wire Line
+	4200 3550 4400 3550
+Connection ~ 4200 3250
+Wire Wire Line
+	4200 3550 4200 3850
+Wire Wire Line
+	4200 3850 4400 3850
+Connection ~ 4200 3550
+Wire Wire Line
+	4200 3850 4200 4050
+Wire Wire Line
+	4200 4050 5350 4050
+Connection ~ 4200 3850
+Wire Wire Line
+	3400 3750 3950 3750
+Wire Wire Line
+	3100 2000 8000 2000
+Wire Wire Line
+	3400 3450 3850 3450
+Wire Wire Line
+	3400 3150 3800 3150
+Wire Wire Line
+	3400 2500 3600 2500
+Wire Wire Line
+	3400 2850 3700 2850
+Wire Wire Line
+	3400 2200 3500 2200
+Connection ~ 3500 2200
+Wire Wire Line
+	3500 2200 4400 2200
+Wire Wire Line
+	3600 2500 3600 2650
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 4400 2500
+Wire Wire Line
+	3500 2200 3500 2400
+Wire Wire Line
+	3700 2850 3700 3000
+Connection ~ 3700 2850
+Wire Wire Line
+	3700 2850 4400 2850
+Wire Wire Line
+	3800 3150 3800 3300
+Connection ~ 3800 3150
+Wire Wire Line
+	3800 3150 4400 3150
+Wire Wire Line
+	3850 3450 3850 3600
+Connection ~ 3850 3450
+Wire Wire Line
+	3850 3450 4400 3450
+Wire Wire Line
+	3950 3750 3950 4000
+Connection ~ 3950 3750
+Wire Wire Line
+	3950 3750 4400 3750
+Text Label 3500 2400 0    50   ~ 0
+Z_BTN2
+Text Label 3600 2650 0    50   ~ 0
+Y_BTN2
+Text Label 3700 3000 0    50   ~ 0
+X_BTN2
+Text Label 3800 3300 0    50   ~ 0
+Z_BTN1
+Text Label 3850 3600 0    50   ~ 0
+Y_BTN1
+Text Label 3950 4000 0    50   ~ 0
+X_BTN1
+$Comp
+L Connector_Generic:Conn_01x12 J1
+U 1 1 60A4DB7B
+P 2200 3250
+F 0 "J1" H 2280 3242 50  0000 L CNN
+F 1 "Conn_01x12" H 2280 3151 50  0000 L CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_12-G-7,62_1x12_P7.62mm_Horizontal" H 2200 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3750 1800 3750
+Wire Wire Line
+	2000 3550 1800 3550
+Wire Wire Line
+	2000 3350 1800 3350
+Wire Wire Line
+	2000 3250 1800 3250
+Wire Wire Line
+	2000 3050 1800 3050
+Text Label 1800 3450 0    50   ~ 0
+ZD
+Text Label 1800 3350 0    50   ~ 0
+ZP
+Text Label 1800 3250 0    50   ~ 0
+YD
+Wire Wire Line
+	4200 4650 4200 4050
+Connection ~ 4200 4050
+Wire Wire Line
+	2000 2750 1800 2750
+Text Label 1800 2950 0    50   ~ 0
+XP
+Text Label 1800 3050 0    50   ~ 0
+XD
+Text Label 6000 5700 1    50   ~ 0
+Z_BTN2
+Text Label 6350 5900 2    50   ~ 0
+Y_BTN2
+Text Label 6400 5800 2    50   ~ 0
+X_BTN2
+Text Label 6500 5700 2    50   ~ 0
+Z_BTN1
+Text Label 6600 5600 2    50   ~ 0
+Y_BTN1
+Text Label 6700 5500 2    50   ~ 0
+X_BTN1
+Wire Wire Line
+	6800 3450 6800 3200
+Wire Wire Line
+	6750 3500 6750 3350
+Text Label 6800 3200 0    50   ~ 0
+XP
+Text Label 6750 3350 3    50   ~ 0
+XD
+Wire Wire Line
+	6750 4500 6750 5050
+Wire Wire Line
+	6700 4550 6700 4750
+Wire Wire Line
+	6650 4500 6650 5050
+Wire Wire Line
+	6600 4550 6600 4750
+Wire Wire Line
+	6550 4500 6550 5050
+Wire Wire Line
+	6500 4550 6500 4750
+Wire Wire Line
+	6450 4500 6450 5050
+Wire Wire Line
+	6400 4550 6400 4750
+Text Label 6750 5050 1    50   ~ 0
+YP
+Text Label 6700 4750 3    50   ~ 0
+YD
+Text Label 6650 5050 1    50   ~ 0
+ZP
+Text Label 6600 4750 3    50   ~ 0
+ZD
+Text Label 6550 5050 1    50   ~ 0
+AP
+Text Label 6500 4750 3    50   ~ 0
+AD
+Text Label 6450 5050 1    50   ~ 0
+BP
+Text Label 6400 4750 3    50   ~ 0
+BD
+Text Label 1800 3550 0    50   ~ 0
+AP
+Text Label 1800 3750 0    50   ~ 0
+BP
+Text Label 1800 3850 0    50   ~ 0
+BD
+Wire Wire Line
+	2000 3150 1800 3150
+Wire Wire Line
+	2000 2950 1800 2950
+Text Label 1800 3150 0    50   ~ 0
+YP
+Text Label 1800 3650 0    50   ~ 0
+AD
+Wire Wire Line
+	2000 3450 1800 3450
+Wire Wire Line
+	2000 3650 1800 3650
+Wire Wire Line
+	1800 2750 1800 2600
+Wire Wire Line
+	1800 2600 2850 2600
+Wire Wire Line
+	2850 2600 2850 4650
+Wire Wire Line
+	2850 4650 4200 4650
+Wire Wire Line
+	2000 3850 1800 3850
+Wire Wire Line
+	6000 4550 6000 5700
+Wire Wire Line
+	6050 4500 6050 5900
+Wire Wire Line
+	6050 5900 6350 5900
+Wire Wire Line
+	6100 5800 6400 5800
+Wire Wire Line
+	6100 4550 6100 5800
+Wire Wire Line
+	6150 5700 6500 5700
+Wire Wire Line
+	6150 4500 6150 5700
+Wire Wire Line
+	6200 5600 6600 5600
+Wire Wire Line
+	6200 4550 6200 5600
+Wire Wire Line
+	6250 5500 6700 5500
+Wire Wire Line
+	6250 4500 6250 5500
+$Comp
+L power:+5V #PWR0101
+U 1 1 60AC92A1
+P 7150 2500
+F 0 "#PWR0101" H 7150 2350 50  0001 C CNN
+F 1 "+5V" H 7165 2673 50  0000 C CNN
+F 2 "" H 7150 2500 50  0001 C CNN
+F 3 "" H 7150 2500 50  0001 C CNN
+	1    7150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2850 7150 2850
+Wire Wire Line
+	7150 2850 7150 2500
+Wire Wire Line
+	5350 2850 5350 4050
+Wire Wire Line
+	7150 2850 8100 2850
+Wire Wire Line
+	8100 2850 8100 3450
+Connection ~ 7150 2850
+$Comp
+L power:+48V #PWR0102
+U 1 1 60AD2E0D
+P 10000 800
+F 0 "#PWR0102" H 10000 650 50  0001 C CNN
+F 1 "+48V" H 10015 973 50  0000 C CNN
+F 2 "" H 10000 800 50  0001 C CNN
+F 3 "" H 10000 800 50  0001 C CNN
+	1    10000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60ADE99B
+P 9850 5100
+F 0 "#PWR0103" H 9850 4850 50  0001 C CNN
+F 1 "GND" H 9855 4927 50  0000 C CNN
+F 2 "" H 9850 5100 50  0001 C CNN
+F 3 "" H 9850 5100 50  0001 C CNN
+	1    9850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 XTF1
+U 1 1 60AE8DE0
+P 9400 1350
+F 0 "XTF1" H 9318 1567 50  0000 C CNN
+F 1 "48v_24v" H 9318 1476 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9400 1350 50  0001 C CNN
+F 3 "~" H 9400 1350 50  0001 C CNN
+	1    9400 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 XTF2
+U 1 1 60AEAEF9
+P 9450 1900
+F 0 "XTF2" H 9368 2117 50  0000 C CNN
+F 1 "48v_12v" H 9368 2026 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9450 1900 50  0001 C CNN
+F 3 "~" H 9450 1900 50  0001 C CNN
+	1    9450 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1450 9600 1450
+Wire Wire Line
+	10000 2000 9650 2000
+Wire Wire Line
+	9600 1350 9850 1350
+Wire Wire Line
+	9650 1900 9850 1900
+$Comp
+L power:+24V #PWR0104
+U 1 1 60ACF5BC
+P 10350 800
+F 0 "#PWR0104" H 10350 650 50  0001 C CNN
+F 1 "+24V" H 10365 973 50  0000 C CNN
+F 2 "" H 10350 800 50  0001 C CNN
+F 3 "" H 10350 800 50  0001 C CNN
+	1    10350 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 XTM2
+U 1 1 60ADEF5E
+P 9400 2450
+F 0 "XTM2" H 9318 2667 50  0000 C CNN
+F 1 "24v" H 9318 2576 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 9400 2450 50  0001 C CNN
+F 3 "~" H 9400 2450 50  0001 C CNN
+	1    9400 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 XTF3
+U 1 1 60ADFDC0
+P 9400 3050
+F 0 "XTF3" H 9318 3267 50  0000 C CNN
+F 1 "24V_MOTOR" H 9318 3176 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9400 3050 50  0001 C CNN
+F 3 "~" H 9400 3050 50  0001 C CNN
+	1    9400 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2450 9850 2450
+$Comp
+L power:+12V #PWR0105
+U 1 1 60AF1158
+P 10650 800
+F 0 "#PWR0105" H 10650 650 50  0001 C CNN
+F 1 "+12V" H 10665 973 50  0000 C CNN
+F 2 "" H 10650 800 50  0001 C CNN
+F 3 "" H 10650 800 50  0001 C CNN
+	1    10650 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3050 9850 3050
+Wire Wire Line
+	9600 2550 10350 2550
+Wire Wire Line
+	9600 3150 10350 3150
+$Comp
+L Connector_Generic:Conn_01x02 XTM3
+U 1 1 60B025D9
+P 9400 3700
+F 0 "XTM3" H 9318 3917 50  0000 C CNN
+F 1 "12v" H 9318 3826 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 9400 3700 50  0001 C CNN
+F 3 "~" H 9400 3700 50  0001 C CNN
+	1    9400 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 3800 9600 3800
+Wire Wire Line
+	9600 3700 9850 3700
+$Comp
+L Connector_Generic:Conn_01x02 XTF4
+U 1 1 60B130A8
+P 9450 4550
+F 0 "XTF4" H 9368 4767 50  0000 C CNN
+F 1 "12V" H 9368 4676 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9450 4550 50  0001 C CNN
+F 3 "~" H 9450 4550 50  0001 C CNN
+	1    9450 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 XTM1
+U 1 1 60AE5045
+P 9400 850
+F 0 "XTM1" H 9318 1067 50  0000 C CNN
+F 1 "48v" H 9318 976 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 9400 850 50  0001 C CNN
+F 3 "~" H 9400 850 50  0001 C CNN
+	1    9400 850 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4550 9850 4550
+Connection ~ 9850 4550
+Wire Wire Line
+	9850 4550 9850 5100
+Wire Wire Line
+	9650 4650 10650 4650
+Connection ~ 9850 3700
+Wire Wire Line
+	9850 3700 9850 4550
+Connection ~ 10650 3800
+Wire Wire Line
+	10650 3800 10650 4650
+Wire Wire Line
+	10650 800  10650 3800
+Connection ~ 9850 3050
+Wire Wire Line
+	9850 3050 9850 3700
+Connection ~ 9850 2450
+Wire Wire Line
+	9850 2450 9850 3050
+Connection ~ 10350 2550
+Wire Wire Line
+	10350 2550 10350 3150
+Wire Wire Line
+	10350 800  10350 2550
+Connection ~ 9850 1900
+Wire Wire Line
+	9850 1900 9850 2450
+Connection ~ 9850 1350
+Wire Wire Line
+	9850 1350 9850 1900
+Connection ~ 10000 1450
+Wire Wire Line
+	10000 1450 10000 2000
+Wire Wire Line
+	10000 800  10000 950 
+Wire Wire Line
+	9600 850  9850 850 
+Wire Wire Line
+	9850 850  9850 1350
+Wire Wire Line
+	9600 950  10000 950 
+Connection ~ 10000 950 
+Wire Wire Line
+	10000 950  10000 1450
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60AE81B6
+P 3400 6750
+F 0 "H4" H 3500 6796 50  0000 L CNN
+F 1 "MountingHole" H 3500 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 6750 50  0001 C CNN
+F 3 "~" H 3400 6750 50  0001 C CNN
+	1    3400 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60AE885A
+P 3400 6550
+F 0 "H3" H 3500 6596 50  0000 L CNN
+F 1 "MountingHole" H 3500 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 6550 50  0001 C CNN
+F 3 "~" H 3400 6550 50  0001 C CNN
+	1    3400 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60AE8D29
+P 3400 6350
+F 0 "H2" H 3500 6396 50  0000 L CNN
+F 1 "MountingHole" H 3500 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 6350 50  0001 C CNN
+F 3 "~" H 3400 6350 50  0001 C CNN
+	1    3400 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60AE8ED0
+P 3400 6150
+F 0 "H1" H 3500 6196 50  0000 L CNN
+F 1 "MountingHole" H 3500 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 6150 50  0001 C CNN
+F 3 "~" H 3400 6150 50  0001 C CNN
+	1    3400 6150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

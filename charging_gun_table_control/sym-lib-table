@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name campusrover_pcb)(type Legacy)(uri /home/wei/Documents/campusrover_pcb/campusrover_pcb.lib)(options "")(descr ""))
+)
